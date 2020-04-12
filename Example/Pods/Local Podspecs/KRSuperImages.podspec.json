@@ -1,0 +1,22 @@
+{
+  "name": "KRSuperImages",
+  "version": "0.1.0",
+  "summary": "A short description of KRSuperImages.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kumarrajnees/KRSuperImages",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kumarrajnees": "kumarrajnees@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kumarrajnees/KRSuperImages.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KRSuperImages/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module KRSuperImages {
+  umbrella header "KRSuperImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

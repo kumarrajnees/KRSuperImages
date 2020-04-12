@@ -1,0 +1,16 @@
+PODS:
+  - KRSuperImages (0.1.0)
+
+DEPENDENCIES:
+  - KRSuperImages (from `../`)
+
+EXTERNAL SOURCES:
+  KRSuperImages:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KRSuperImages: e1a458a7b16b3238168d63bb2c346e5d4972be90
+
+PODFILE CHECKSUM: 63c27755e3341a5d4bf7a24ae09680bec03757b1
+
+COCOAPODS: 1.8.4

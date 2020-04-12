@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01A6B4E8AE8B36596055F5BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		01A6B4E8AE8B36596055F5BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1E7971B530A02B791477E9C9 /* Pods-KRSuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRSuperImages_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KRSuperImages_Tests/Pods-KRSuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		21BC42FE93DD19827F1AE615 /* Pods_KRSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D6C812DE066134305AA734B /* Pods-KRSuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRSuperImages_Example.release.xcconfig"; path = "Target Support Files/Pods-KRSuperImages_Example/Pods-KRSuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACE51AFB9204008FA782 /* KRSuperImages_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRSuperImages_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		73DB3829516821BED515B0E2 /* KRSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KRSuperImages.podspec; path = ../KRSuperImages.podspec; sourceTree = "<group>"; };
+		73DB3829516821BED515B0E2 /* KRSuperImages.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KRSuperImages.podspec; path = ../KRSuperImages.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7CB11BCEA0C39D05ADE8E295 /* Pods_KRSuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRSuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B777BAFC01E53DBD73C8107D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B777BAFC01E53DBD73C8107D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				1E7971B530A02B791477E9C9 /* Pods-KRSuperImages_Tests.debug.xcconfig */,
 				44ADD89CEEA617213C6DF365 /* Pods-KRSuperImages_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
