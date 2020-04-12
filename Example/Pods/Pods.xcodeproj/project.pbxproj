@@ -15,7 +15,7 @@
 		60BA8CE4477F0B422D4639D33B2F5BE1 /* Pods-KRSuperImages_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC21D1D930B49BEE965FDA5790C1B0D3 /* Pods-KRSuperImages_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73F102D5BC83F435CF7772BA9BBFAB34 /* Pods-KRSuperImages_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8499AF6C86B35B395A9478465F2BD155 /* Pods-KRSuperImages_Tests-dummy.m */; };
 		92D85139FF1B157CF51CA103681EEF19 /* Pods-KRSuperImages_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 267EE737D93353CC75D1E9C9464140EB /* Pods-KRSuperImages_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8736F8D7D15BA47253DEA558497EB5E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17568627667A65EBFDDC822A2ADC95E7 /* ReplaceMe.swift */; };
+		EEAB9FF22443973800D4741B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB9FF12443973800D4741B /* UIImageExtension.swift */; };
 		F66DD6C6D96CFCDBC2B066D582110DC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,34 +41,34 @@
 		0492AAA5E8564C51F399D0619D60D5DF /* Pods-KRSuperImages_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRSuperImages_Example-Info.plist"; sourceTree = "<group>"; };
 		09D3A4C3C156A11F95CBEA368B64343E /* Pods-KRSuperImages_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRSuperImages_Tests.modulemap"; sourceTree = "<group>"; };
 		15ADF6259D0F71E17658198B14A8352E /* Pods-KRSuperImages_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRSuperImages_Example-dummy.m"; sourceTree = "<group>"; };
-		17568627667A65EBFDDC822A2ADC95E7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KRSuperImages/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		216CFD3A5DF7E69890A772972ECC36E9 /* Pods-KRSuperImages_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRSuperImages_Example-frameworks.sh"; sourceTree = "<group>"; };
 		267EE737D93353CC75D1E9C9464140EB /* Pods-KRSuperImages_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRSuperImages_Example-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3B62E45C695C9F2825426D1CFE041949 /* KRSuperImages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KRSuperImages-Info.plist"; sourceTree = "<group>"; };
 		3DE117DB9DBA167E0D0D577096EA68E8 /* Pods-KRSuperImages_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRSuperImages_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C70154C0566CA36DF2F766CE284919B /* Pods-KRSuperImages_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRSuperImages_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		66DBFA6830EAC8D33024FE0830AB34E2 /* KRSuperImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KRSuperImages.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66DBFA6830EAC8D33024FE0830AB34E2 /* KRSuperImages.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KRSuperImages.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		765957258199E136B0C42151986F5E8B /* Pods-KRSuperImages_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRSuperImages_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7E21A024738F0E6CB60CD283973B9732 /* KRSuperImages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRSuperImages-umbrella.h"; sourceTree = "<group>"; };
 		835ED0D2B736FD520CEA4614ED29EEA0 /* KRSuperImages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRSuperImages.modulemap; sourceTree = "<group>"; };
 		8499AF6C86B35B395A9478465F2BD155 /* Pods-KRSuperImages_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRSuperImages_Tests-dummy.m"; sourceTree = "<group>"; };
 		97FDB3012FD50318F209862D3E2AE091 /* Pods-KRSuperImages_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRSuperImages_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2685E2A366418F10D5DCC9D7249FE4D /* Pods_KRSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRSuperImages_Tests.framework; path = "Pods-KRSuperImages_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2685E2A366418F10D5DCC9D7249FE4D /* Pods_KRSuperImages_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRSuperImages_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDB3296DE11434E494BD3B5C039F664 /* Pods-KRSuperImages_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRSuperImages_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AC21D1D930B49BEE965FDA5790C1B0D3 /* Pods-KRSuperImages_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRSuperImages_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD300D05D5C087129A5955C968F88B05 /* KRSuperImages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRSuperImages.xcconfig; sourceTree = "<group>"; };
-		AE79DC445D841300FFD5D5BFA1DC35A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AE79DC445D841300FFD5D5BFA1DC35A5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C9C8F07FE4866888D1E6CAA9405A62D4 /* Pods-KRSuperImages_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRSuperImages_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CF4A42E8C8DC60DE5D7795752CF09751 /* KRSuperImages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRSuperImages-dummy.m"; sourceTree = "<group>"; };
 		D03F9E14851A38521DF6E596CF48C655 /* Pods-KRSuperImages_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRSuperImages_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D89158CA6599A9443190E03692E0AF33 /* KRSuperImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRSuperImages.framework; path = KRSuperImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89158CA6599A9443190E03692E0AF33 /* KRSuperImages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRSuperImages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65E398207E56BD6AB311CD5D052D4BF /* Pods-KRSuperImages_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRSuperImages_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E860EC53B3DCD2B6493B013317219147 /* Pods-KRSuperImages_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRSuperImages_Tests-Info.plist"; sourceTree = "<group>"; };
 		ED72F60C043138447F6F3C4D8203C9C6 /* KRSuperImages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRSuperImages-prefix.pch"; sourceTree = "<group>"; };
-		F36FF09A2B645E2551800D5A331E8804 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		FA227EC5A98E1BE8ECAE6F931124D053 /* Pods_KRSuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRSuperImages_Example.framework; path = "Pods-KRSuperImages_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAB9FF12443973800D4741B /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = KRSuperImages/Classes/UIImageExtension.swift; sourceTree = "<group>"; };
+		F36FF09A2B645E2551800D5A331E8804 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA227EC5A98E1BE8ECAE6F931124D053 /* Pods_KRSuperImages_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRSuperImages_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +134,9 @@
 		8917654B1CA292B952E223E856BFFDFD /* KRSuperImages */ = {
 			isa = PBXGroup;
 			children = (
-				17568627667A65EBFDDC822A2ADC95E7 /* ReplaceMe.swift */,
 				AC6B0B078B93350B723681571E31EF9F /* Pod */,
 				00101AFCA794694892AD6C888C3A9D71 /* Support Files */,
+				EEAB9FF12443973800D4741B /* UIImageExtension.swift */,
 			);
 			name = KRSuperImages;
 			path = ../..;
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					8965DF196E6ABCE5F300E077E5702475 = {
+						LastSwiftMigration = 1140;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -374,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460E57637EF42C0D7DAF94AD1A7C0A15 /* KRSuperImages-dummy.m in Sources */,
-				C8736F8D7D15BA47253DEA558497EB5E /* ReplaceMe.swift in Sources */,
+				EEAB9FF22443973800D4741B /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD300D05D5C087129A5955C968F88B05 /* KRSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -528,6 +534,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -622,8 +629,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -697,6 +703,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD300D05D5C087129A5955C968F88B05 /* KRSuperImages.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
